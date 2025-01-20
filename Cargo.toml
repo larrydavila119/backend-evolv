@@ -1,0 +1,24 @@
+[package]
+name = "sistema_inventario"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+base64 = "0.22.1"
+bcrypt = "0.16.0"
+chrono = "0.4.38"
+env_logger = "0.11.6"
+escpos = { version = "0.13.1", features = ["full"] }
+jsonwebtoken = "9.3.0"
+log = "0.4.22"
+rocket = { version = "0.5.1", features = ["json"] } 
+rocket-basicauth = "3.0.0"
+rusb = "0.9.4"
+serde = "1.0.215"
+serde_json = "1.0.133"
+surrealdb = "2.0.4"
+thiserror = "2.0.3"
+tokio = "1.41.1"
+
+[features]
+graphics = []
